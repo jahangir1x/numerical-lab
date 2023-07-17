@@ -1,7 +1,10 @@
 #include <bits/stdc++.h>
-
 using namespace std;
 
+/**
+ * /\F(Xn+1) = (F(Xn) - F(Xn-1))/(Xn) - (xn-1)
+ * F(X) = f(X0) + (X-X0)/\F(X0) - (X-X0)(X-X1)/\^2F(X0) + (X-X0)(X-X1)/\^3F(X0)...
+ */
 class NewtonsDividedDifferenceInterpolationFormula {
    private:
    public:

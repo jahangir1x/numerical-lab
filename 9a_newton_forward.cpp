@@ -1,7 +1,13 @@
 #include <bits/stdc++.h>
-
 using namespace std;
 
+/**
+ * /\f(x) = f(x+h) - f(x)
+ * f(a+hu) = f(a) + u/1! * /\f(a) + u(u-1)/2! * /\^2f(a)...
+ * a + hu = given
+ * a = base
+ * h = nextBase - base
+ */
 class NewtonsForwardInterpolationFormula {
    public:
     int n, value;

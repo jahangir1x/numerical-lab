@@ -1,7 +1,10 @@
 #include <bits/stdc++.h>
-
 using namespace std;
 
+/**
+ * n = (b-a) / h
+ * Iatobf(x)dx = h((y0-yn)/2 + y1 + y2 +... yn-1)
+*/
 class TrapezoidalRule {
    private:
     double lower, upper, grids;

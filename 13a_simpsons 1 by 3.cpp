@@ -1,7 +1,10 @@
 #include <bits/stdc++.h>
-
 using namespace std;
 
+/**
+ * 1 / 3 Iatobf(x)dx =  h/3[(y0-yn) + 4(y1+y3...)    + 2(y2+y4...)]  even num of intervals
+ * 1 / 8 Iatobf(x)dx = 3h/8[(y0-yn) + 3(y1+y2+y4...) + 2(y3+y6...)]  3's multiple
+ */
 class SimpsonsRule {
    private:
     double lower, upper, grids;

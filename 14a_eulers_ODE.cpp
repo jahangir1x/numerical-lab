@@ -1,7 +1,9 @@
 #include <bits/stdc++.h>
-
 using namespace std;
 
+/**
+ * Yn+1 = Yn + hf(Xn, Yn)
+*/
 class Euler {
    public:
     double function(double x, double y) {
