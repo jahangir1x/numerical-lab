@@ -1,3 +1,4 @@
-# downloads/
 build/
 .vscode/
+.cph/
+test.cpp
